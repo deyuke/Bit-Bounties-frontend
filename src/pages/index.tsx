@@ -24,7 +24,7 @@ export default function Home() {
                         </p>
                       </div>
                         <div className="flex gap-3 text-2xl">
-                            <button className="bg-primary hover:bg-primary/85 text-black py-3 px-[18px] rounded-lg ">
+                            <button className="bg-primary hover:bg-primary/85 hover:shadow-primary/30 hover:shadow-md text-black py-3 px-[18px] rounded-lg ">
                                 Start hunting
                             </button>
                             <button className="hover:bg-primary/10 text-primary py-3 px-[18px] rounded-lg">
