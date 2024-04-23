@@ -17,7 +17,7 @@ export default function Home() {
                             Welcome to Bit Bounties - Where Your Skills Meet
                             Opportunities!
                         </h1>
-                        <p className="text-[32px] font-normal">
+                        <p className="text-[32px] font-normal text-secondary">
                             Are you tired of the same old job application
                             routine? Bit Bounties is here to transform your job
                             search experience!

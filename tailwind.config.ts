@@ -20,6 +20,10 @@ const config: Config = {
       colors: {
         primary: "#FFA200",
         secondary: "#000000",
+        info: "#007ce8",
+        success: "#00D68F",
+        danger: "#ea5455",
+        warning: "#ff9f43",
       },
     },
   },
