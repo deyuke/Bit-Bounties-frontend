@@ -33,6 +33,9 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+                <div >
+                    <Image src={"/img/hero2.jpg"} layout="fill" alt="A student who used BitBounties" width={512} height={512}/>
+                </div>
               </div>
             </div>
         </main>
