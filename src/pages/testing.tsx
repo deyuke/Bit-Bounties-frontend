@@ -1,16 +1,19 @@
 import { Button } from "../components/atoms/_index";
+import { useRouter } from "next/compat/router";
 
 
 
 export default function Testing() {
+    const router = useRouter();
     return (
         <div>
             <h1 className="">Testing Page</h1>
             <h2>All buttons and colors: </h2>
+            <Button text="Default" color="primary" onClick={() => console.log(router?.asPath)}/>
             <div className="flex gap-3">
                 <div className="flex flex-col gap-2 rounded-xl items-center">
-                    <div className="w-8 h-8 bg-primary hover:shadow-md hover:shadow-primary/40 hover:bg-primary/85  disabled:bg-primary/50 active:bg-primary/30 focus:bg-primary/30 " />
-                    <Button disabled color="primary" text="Primary" />
+                    <div className="w-8 h-8 bg-primary hover:shadow-md hover:shadow-primary/40 hover:bg-primary/85  disabled:bg-primary/50 active:bg-primary/30 focus:bg-primary/30 active:bg-primary-60" />
+                    <Button color="primary" text="Primary" />
                 </div>
                 <div className="flex flex-col gap-2 rounded-xl items-center">
                     <div className="w-8 h-8 bg-secondary hover:shadow-md hover:shadow-secondary/40 hover:bg-secondary/85" />
@@ -34,8 +37,8 @@ export default function Testing() {
                 </div>
 
                 
-            </div>
-            <div className="flex gap-3">
+            Button</div>
+            {/* <div className="flex gap-3">
                 <div className="flex flex-col gap-2 rounded-xl items-center">
                     <div className="text-primary w-8 h-8 bg-transparent hover:shadow-md hover:shadow-primary/40 hover:bg-primary/10 disabled:bg-primary/20 active:bg-primary/30 focus:bg-primary/30" />
                     <Button flat color="primary" text="Primary" onClick={()=>console.log('clicked')}/>
@@ -62,7 +65,7 @@ export default function Testing() {
                 </div>
 
                 
-            </div>
+            </div> */}
         </div>
     );
 }

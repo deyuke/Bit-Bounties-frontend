@@ -1,0 +1,4 @@
+1-Plant_werkzaamheden_en_bewaakt_de_voortgang
+2-Ontwerp_software
+3-Realiseert_(onderdelen_van)_software
+4-Test_software 5-Doet_verbetervoorstellen_voor_de_software 6-Voert_overleg 7-Presenteert_het_opgeleverde_werk 8-Reflecteert_op_het_werk
