@@ -45,6 +45,36 @@ p {
   font-weight: regular;
 }
 
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 33px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 23px;
+  }
+
+  h5 {
+    font-size: 19px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
 body {
   background-color: #F5F5F5;
 
