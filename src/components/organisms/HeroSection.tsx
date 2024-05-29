@@ -17,7 +17,7 @@ const HeroSection = () => {
                         <p className="text-xl text-primary">
                             Skills Match, Bounties Await, Discover!
                         </p>
-                        <h1 className="text-3xl lg:text-5xl">
+                        <h1 className="text-2xl lg:text-5xl">
                             Welcome to Bit Bounties - Where Your Skills Meet
                             Opportunities!
                         </h1>
