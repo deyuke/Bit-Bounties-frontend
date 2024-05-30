@@ -1,7 +1,7 @@
 const Button = ({
     text,
     onClick,
-    color,
+    color = "primary",
     size,
     flat,
     disabled,
