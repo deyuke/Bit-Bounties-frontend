@@ -1,4 +1,4 @@
-export type Bounty = {
+export type Posting = {
     key?: number;
     id: number;
     company_id: number;
@@ -22,4 +22,8 @@ export type Company = {
     country: string;
     created_at: string;
     updated_at: string;
+}
+
+export type Bounty = Posting & {
+    company_name: string;
 }
