@@ -1,6 +1,6 @@
 import { BountyCard } from "./_index";
 import { Button } from "../atoms/_index";
-import { useBounties } from "../../hooks/useBounties";
+import { useBounties } from "../../hooks/api/useBounties";
 import { ArrowRight } from "react-feather";
 
 const DiscoverGridList = () => {
