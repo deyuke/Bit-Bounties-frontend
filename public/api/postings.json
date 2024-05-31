@@ -2,151 +2,166 @@
   {
     "id": 1,
     "company_id": 1,
-    "title": "Bailiff",
-    "slug": "totam-tempora-sed-totam-nihil-vero",
-    "description": "Nostrum blanditiis fugit quis reiciendis omnis labore. Id eos inventore perferendis commodi. Et sint eius maiores quo recusandae nemo. Blanditiis sit nostrum unde ea.",
+    "title": "React Developer Intern",
+    "slug": "react-developer-intern",
+    "description": "Join our team as a React Developer Intern where you'll work on building and optimizing user-facing features for web applications. Ideal candidates have a solid understanding of JavaScript, HTML, CSS, and experience with React.js.",
     "is_active": 1,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["React", "JavaScript", "HTML", "CSS"]
   },
   {
     "id": 2,
     "company_id": 1,
-    "title": "Home Economics Teacher",
-    "slug": "voluptas-deserunt-ut-harum-ratione",
-    "description": "Architecto cumque nemo at commodi qui molestias modi. Veniam voluptate autem aut eaque sit in. Ab sint ea cum consectetur odit nobis.",
+    "title": "Vue Developer Intern",
+    "slug": "vue-developer-intern",
+    "description": "As a Vue Developer Intern, you will assist in the development of dynamic, responsive web applications. Candidates should be familiar with Vue.js, JavaScript, and front-end development practices.",
     "is_active": 0,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["Vue.js", "JavaScript", "HTML", "CSS"]
   },
   {
     "id": 3,
     "company_id": 1,
-    "title": "Postmasters",
-    "slug": "qui-voluptas-dolorem-omnis-nobis",
-    "description": "Est et ducimus qui tempore quia aut. Id rerum vel ad sed consectetur. Et nisi aperiam veniam dolore est voluptas sit.",
+    "title": "Laravel Developer Intern",
+    "slug": "laravel-developer-intern",
+    "description": "We are looking for a Laravel Developer Intern to help build efficient and scalable web applications. The intern will work closely with senior developers and should have knowledge of PHP, Laravel framework, and MySQL.",
     "is_active": 0,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["PHP", "Laravel", "MySQL"]
   },
   {
     "id": 4,
     "company_id": 2,
-    "title": "Glass Cutting Machine Operator",
-    "slug": "dolorem-vel-ipsam-et-recusandae-et-quidem",
-    "description": "Fugiat accusantium rerum aliquam sed eum cum. Eaque et voluptas molestiae magnam. Pariatur corporis laborum recusandae consequatur numquam. Similique voluptatem voluptatem adipisci nemo.",
+    "title": "Full Stack Developer Intern",
+    "slug": "full-stack-developer-intern",
+    "description": "Seeking a Full Stack Developer Intern to assist in both front-end and back-end development tasks. Preferred candidates have experience with JavaScript frameworks (React/Vue), Node.js, and database management.",
     "is_active": 1,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["React", "Vue.js", "Node.js", "MySQL"]
   },
   {
     "id": 5,
     "company_id": 2,
-    "title": "Chemical Equipment Operator",
-    "slug": "voluptate-quaerat-eius-reprehenderit-corrupti",
-    "description": "Dolorum iusto enim qui vitae. Aliquid qui neque et ipsum tempore vitae quo. Est accusantium et sed quidem velit.",
+    "title": "Backend Developer Intern",
+    "slug": "backend-developer-intern",
+    "description": "This internship position is for a Backend Developer Intern to help develop server-side logic, ensuring high performance and responsiveness to requests from the front-end. Knowledge of Node.js, Express, and database management is required.",
     "is_active": 0,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["Node.js", "Express", "MySQL"]
   },
   {
     "id": 6,
     "company_id": 2,
-    "title": "Psychiatrist",
-    "slug": "veniam-molestiae-qui-magnam-et-tempora-nulla-nobis",
-    "description": "Quo et ratione voluptas enim quidem. Laudantium ipsam quis error quo perspiciatis nam.",
+    "title": "Frontend Developer Intern",
+    "slug": "frontend-developer-intern",
+    "description": "We are looking for a Frontend Developer Intern to help design and implement user interface components using JavaScript, React, or Vue. Candidates should have a good understanding of web markup, including HTML5 and CSS3.",
     "is_active": 0,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["JavaScript", "React", "Vue.js", "HTML5", "CSS3"]
   },
   {
     "id": 7,
     "company_id": 3,
-    "title": "Mechanical Equipment Sales Representative",
-    "slug": "repellat-atque-accusamus-qui-natus",
-    "description": "Quod sint qui voluptatem non molestiae. Et magni dolorem eos quo excepturi nulla exercitationem. Provident est fugiat earum deserunt assumenda nesciunt. Exercitationem inventore iusto fugiat dicta eius natus eaque.",
+    "title": "JavaScript Developer Intern",
+    "slug": "javascript-developer-intern",
+    "description": "Join us as a JavaScript Developer Intern to work on a variety of projects that involve building and optimizing web applications. Ideal candidates should be proficient in JavaScript and have experience with modern frameworks.",
     "is_active": 0,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["JavaScript", "React", "Vue.js", "Node.js"]
   },
   {
     "id": 8,
     "company_id": 3,
-    "title": "Logging Tractor Operator",
-    "slug": "cupiditate-laudantium-laudantium-inventore-incidunt",
-    "description": "Aperiam magni aut amet et nihil. Animi ipsam cupiditate aut harum quas id rerum. Eius aut quia officia consectetur aliquam voluptatibus modi.",
+    "title": "Python Developer Intern",
+    "slug": "python-developer-intern",
+    "description": "As a Python Developer Intern, you'll assist in developing and maintaining web applications using Python frameworks like Django or Flask. Candidates should have a good understanding of Python and web development practices.",
     "is_active": 1,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["Python", "Django", "Flask"]
   },
   {
     "id": 9,
     "company_id": 3,
-    "title": "Bridge Tender OR Lock Tender",
-    "slug": "at-quis-voluptatem-nobis-enim-voluptatem",
-    "description": "Tenetur consequatur quaerat sit fuga. Atque officiis quis et deleniti ut. At voluptatem in est optio quia possimus. Culpa reiciendis ad quo quaerat neque.",
+    "title": "Mobile App Developer Intern",
+    "slug": "mobile-app-developer-intern",
+    "description": "We are seeking a Mobile App Developer Intern to help design and build mobile applications for Android and iOS. Familiarity with Flutter, React Native, or Swift is preferred.",
     "is_active": 1,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["Flutter", "React Native", "Swift"]
   },
   {
     "id": 10,
     "company_id": 4,
-    "title": "Tailor",
-    "slug": "quam-praesentium-non-quia-minima-ut-vel-impedit",
-    "description": "Quibusdam labore maxime dolor inventore eum labore. Aut sint rerum blanditiis qui velit. Earum veniam quia saepe ducimus et. Aspernatur tempore rerum molestiae nisi rem sit est.",
+    "title": "UX/UI Designer Intern",
+    "slug": "ux-ui-designer-intern",
+    "description": "Looking for a UX/UI Designer Intern to help create user-friendly interfaces for web and mobile applications. Candidates should be familiar with design tools like Sketch, Figma, or Adobe XD.",
     "is_active": 1,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["Sketch", "Figma", "Adobe XD"]
   },
   {
     "id": 11,
     "company_id": 4,
-    "title": "Machinist",
-    "slug": "ea-assumenda-saepe-quibusdam-doloribus-repudiandae",
-    "description": "Atque quo facere sunt et reprehenderit. Quidem eos architecto sint similique non. Delectus animi culpa totam ut ullam. Quo ad eos qui voluptas aspernatur et ratione.",
+    "title": "Data Scientist Intern",
+    "slug": "data-scientist-intern",
+    "description": "As a Data Scientist Intern, you will assist in analyzing and interpreting complex data sets to help drive business decisions. Knowledge of Python, R, and data visualization tools is required.",
     "is_active": 1,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["Python", "R", "Tableau", "Power BI"]
   },
   {
     "id": 12,
     "company_id": 4,
-    "title": "Benefits Specialist",
-    "slug": "omnis-nulla-illum-eum-iure-odit-qui",
-    "description": "Rem occaecati eos hic in. A suscipit deleniti dolor impedit et. Eligendi excepturi vel ut quo. Et rerum deleniti dolorum et quo.",
+    "title": "DevOps Intern",
+    "slug": "devops-intern",
+    "description": "We are hiring a DevOps Intern to help maintain and improve our development infrastructure. Candidates should have knowledge of CI/CD tools, Docker, and cloud platforms like AWS or Azure.",
     "is_active": 1,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["CI/CD", "Docker", "AWS", "Azure"]
   },
   {
     "id": 13,
     "company_id": 5,
-    "title": "Food Tobacco Roasting",
-    "slug": "asperiores-maiores-ducimus-consectetur-rem-asperiores",
-    "description": "Harum alias praesentium qui voluptas. Occaecati quae consequatur sint consequatur rerum recusandae deleniti. Officiis nam voluptas eum dignissimos.",
+    "title": "Security Analyst Intern",
+    "slug": "security-analyst-intern",
+    "description": "Join our team as a Security Analyst Intern to assist in monitoring and securing our systems. Candidates should have knowledge of cybersecurity principles, tools, and best practices.",
     "is_active": 1,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["Cybersecurity", "SIEM", "Firewall", "IDS/IPS"]
   },
   {
     "id": 14,
     "company_id": 5,
-    "title": "Nursing Instructor",
-    "slug": "eius-voluptatem-quod-labore-sit-earum-laborum-natus-ut",
-    "description": "Dolorem temporibus necessitatibus quod omnis debitis quia hic. Saepe velit atque ad provident magnam. Iure ut porro optio tempore.",
+    "title": "Blockchain Developer Intern",
+    "slug": "blockchain-developer-intern",
+    "description": "We are looking for a Blockchain Developer Intern to help develop and maintain blockchain-based applications. Knowledge of blockchain technology, smart contracts, and languages like Solidity is required.",
     "is_active": 1,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["Blockchain", "Solidity", "Ethereum"]
   },
   {
     "id": 15,
     "company_id": 5,
-    "title": "Dispatcher",
-    "slug": "accusantium-suscipit-voluptatem-ex-et-dolor-voluptatem",
-    "description": "In sit officia accusantium. Provident distinctio recusandae hic dolorem. Reprehenderit eos voluptas aperiam quo velit aut dignissimos.",
+    "title": "AI/ML Engineer Intern",
+    "slug": "ai-ml-engineer-intern",
+    "description": "As an AI/ML Engineer Intern, you will work on developing machine learning models and AI solutions. Candidates should have experience with Python, TensorFlow, and machine learning algorithms.",
     "is_active": 0,
     "created_at": "2024-05-16 12:11:00",
-    "updated_at": "2024-05-16 12:11:00"
+    "updated_at": "2024-05-16 12:11:00",
+    "stack": ["Python", "TensorFlow", "scikit-learn"]
   }
 ]
