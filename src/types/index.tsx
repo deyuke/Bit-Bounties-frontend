@@ -8,6 +8,7 @@ export type Posting = {
     is_active: number;
     created_at: string;
     updated_at: string;
+    stack: Array<string>;
 }
 
 export type Company = {
@@ -26,4 +27,6 @@ export type Company = {
 
 export type Bounty = Posting & {
     company_name: string;
+    city: string;
+    country: string;
 }
