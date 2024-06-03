@@ -61,7 +61,7 @@ const BountyCard = ({ bounty }: { bounty: Bounty }) => {
                 </div>
             </div>
             <div className="justify-end">
-                <Link href={`/bounties/${bounty.id}`}>
+                <Link href={`/bounty/${bounty.id}`}>
                     <Button color="black">
                         View Assignment
                         <ArrowRight size={16} color="white" />
