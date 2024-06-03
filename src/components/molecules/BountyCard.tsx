@@ -3,6 +3,7 @@ import { ArrowRight, Clock, Code, MapPin } from "react-feather";
 import { Button } from "../atoms/_index";
 import { Bounty } from "../../types";
 import { timeAgo } from "@/utils/dateUtils";
+import Link from "next/link";
 
 const BountyCard = ({ bounty }: { bounty: Bounty }) => {
     const dateStr = bounty.created_at;
@@ -60,10 +61,12 @@ const BountyCard = ({ bounty }: { bounty: Bounty }) => {
                 </div>
             </div>
             <div className="justify-end">
-                <Button color="black">
-                    View Assignment
-                    <ArrowRight size={16} color="white" />
-                </Button>
+                <Link href={`/bounties/${bounty.id}`}>
+                    <Button color="black">
+                        View Assignment
+                        <ArrowRight size={16} color="white" />
+                    </Button>
+                </Link>
             </div>
         </div>
     );
