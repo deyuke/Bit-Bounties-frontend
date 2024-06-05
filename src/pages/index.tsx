@@ -1,4 +1,9 @@
-import { HeroSection, HomepageStepDiscover } from "@/components/organisms/_index";
+import React from "react";
+import {
+    HeroSection,
+    HomepageStepDiscover,
+    HomepageStepHowItWorks
+} from "@/components/organisms/_index";
 
 export default function Home() {
     return (
@@ -8,11 +13,10 @@ export default function Home() {
                     <HeroSection />
                     <div className="mt-32 flex flex-col gap-24">
                         <HomepageStepDiscover />
+                        <HomepageStepHowItWorks />
                     </div>
                 </div>
             </div>
         </main>
     );
 }
-
-// width={512} height={512}
