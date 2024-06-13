@@ -17,7 +17,7 @@ const HomepageStepHowItWorks = () => {
                 </p>
             </div>
 
-            <div className="flex gap-4 w-full">
+            <div className="flex gap-4 w-full flex-col lg:flex-row">
                 <div className="flex flex-col gap-5 w-full">
                     <div className="h-[300px] w-full bg-[#f0f0f0] rounded-[20px]">
                         <img
