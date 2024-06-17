@@ -13,7 +13,11 @@ const DiscoverGridList = () => {
                     <BountyCard key={bounty.id} bounty={bounty} />
                 ))}
             </div>
-            <Button color="primary" size="lg" className="w-min whitespace-nowrap">
+            <Button
+                color="primary"
+                size="lg"
+                className="w-min whitespace-nowrap"
+            >
                 View All Bounties
                 <ArrowRight size={16} />
             </Button>
