@@ -17,6 +17,8 @@ const BountyCard = ({ bounty }: { bounty: Bounty }) => {
         return () => clearInterval(intervalId);
     }, [dateStr]);
 
+    const techStack = Array.isArray(bounty.stack) ? bounty.stack : [];
+
     return (
         <div className="flex flex-col justify-between border border-black/35 rounded-lg p-6 gap-[10px] w-full">
             <div className="flex flex-col gap-[10px]">
@@ -43,15 +45,15 @@ const BountyCard = ({ bounty }: { bounty: Bounty }) => {
                         <div className="flex gap-1 items-center">
                             <Code size={13} />
                             <p className="text-[12px]">
-                                {/* React, NextJS, tailwindCSS */}
-                                {/* TODO: change to tech stack from api when available */}
-                                {bounty.stack.map((language, index) => (
-                                    <span key={language}>
-                                        {language}
-                                        {index < bounty.stack.length - 1 &&
-                                            ", "}
-                                    </span>
-                                )) || "No stack available"}
+                                {techStack.length > 0
+                                    ? techStack.map((language, index) => (
+                                          <span key={language}>
+                                              {language}
+                                              {index < techStack.length - 1 &&
+                                                  ", "}
+                                          </span>
+                                      ))
+                                    : "No stack available"}
                             </p>
                         </div>
                     </div>
