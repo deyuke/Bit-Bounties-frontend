@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowRight, Clock, Code, MapPin } from "react-feather";
 
+
 const BountyCardSkeleton = () => {
     return (
         <div className="flex flex-col justify-between border border-gray-300 rounded-lg p-6 gap-[10px] w-full animate-pulse">
