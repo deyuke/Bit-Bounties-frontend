@@ -7,6 +7,7 @@ const Button = ({
     disabled,
     children,
     className,
+    type,
 }: ButtonProps) => {
     return (
         <button
@@ -38,4 +39,5 @@ interface ButtonProps {
     disabled?: boolean;
     children?: React.ReactNode;
     className?: string;
+    type?: "button" | "submit";
 }
