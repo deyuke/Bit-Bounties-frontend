@@ -11,10 +11,10 @@ const BountyDetails = () => {
     const [loading, setLoading] = useState<boolean>(true);
 
     // Ensure router and router.query are defined before accessing router.query.id
-    const id = parseInt(router.query.id as string, 10);
+    const id = router && router.query ? parseInt(router.query.id as string, 10) : null;
 
     useEffect(() => {
-        if (Array.isArray(bounties)) {
+        if (id !== null && Array.isArray(bounties)) {
             const bounty = bounties.find((bounty) => bounty.id === id);
             setCurrentBounty(bounty);
             console.log(bounty);

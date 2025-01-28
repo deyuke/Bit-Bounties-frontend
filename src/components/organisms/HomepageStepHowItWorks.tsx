@@ -1,7 +1,5 @@
 import React from "react";
 import { Button } from "../atoms/_index";
-import Lottie from "lottie-react";
-import animationData from "./search.json";
 
 const HomepageStepHowItWorks = () => {
     return (

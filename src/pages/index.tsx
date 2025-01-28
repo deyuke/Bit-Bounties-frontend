@@ -2,7 +2,8 @@ import React from "react";
 import {
     HeroSection,
     HomepageStepDiscover,
-    HomepageStepHowItWorks
+    HomepageStepHowItWorks,
+    HomepageStepEmployers
 } from "@/components/organisms/_index";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
                     <div className="mt-32 flex flex-col gap-24">
                         <HomepageStepDiscover />
                         <HomepageStepHowItWorks />
+                        <HomepageStepEmployers />
                     </div>
                 </div>
             </div>

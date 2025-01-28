@@ -5,7 +5,13 @@ import { Bounty } from "../../types";
 import { timeAgo } from "@/utils/dateUtils";
 import Link from "next/link";
 
-const BountyCard = ({ bounty }: { bounty: Bounty }) => {
+const BountyCard = ({
+    bounty,
+    onClick,
+}: {
+    bounty: Bounty;
+    onClick?: () => void;
+}) => {
     const dateStr = bounty.created_at;
     const [timeAgoString, setTimeAgoString] = useState(timeAgo(dateStr));
 
@@ -20,7 +26,7 @@ const BountyCard = ({ bounty }: { bounty: Bounty }) => {
     const techStack = Array.isArray(bounty.stack) ? bounty.stack : [];
 
     return (
-        <div className="flex flex-col justify-between border border-black/35 rounded-lg p-6 gap-[10px] w-full">
+        <div onClick={onClick} className="flex flex-col justify-between border border-black/35 rounded-lg p-6 gap-[10px] w-full">
             <div className="flex flex-col gap-[10px]">
                 <div className="flex flex-col justify-between">
                     <h3>{bounty.title}</h3>
